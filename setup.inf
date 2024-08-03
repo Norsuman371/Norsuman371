@@ -1,0 +1,56 @@
+;florr_corsor - by _nothingGG on luogu < https://luogu.com.cn > & _nothingGG on florr < florr.io >
+
+[Version]
+signature	="$Chicago$"
+
+[DefaultInstall]
+CopyFiles 	= Scheme.Cur, Scheme.Txt
+AddReg   	= Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur 	= 10,"%CUR_DIR%"
+Scheme.Txt 	= 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
+
+[Scheme.Cur]
+"《中》.cur"
+"帮助.cur"
+"笔.cur"
+"不可用.cur"
+"链接.cur"
+"忙.ani"
+"左上.cur"
+"忙的幻影分身（）.ani"
+"普通.cur"
+"人.cur"
+"上.cur"
+"上箭头.cur"
+"位置.cur"
+"文本I.cur"
+"右上.cur"
+"准星.cur"
+"左.cur"
+
+[Strings]
+CUR_DIR        	= "Cursors\florr_cursor - v1.2"
+SCHEME_NAME     = "florr_cursor - v1.2"
+link		= "链接.cur"
+pointer		= "普通.cur"
+help		= "帮助.cur"
+work		= "忙.ani"
+busy		= "忙的幻影分身（）.ani"
+cross		= "《中》.cur"
+text		= "文本I.cur"
+hand		= "笔.cur"
+unavailiable	= "不可用.cur"
+vert		= "上.cur"
+horz		= "左.cur"
+dgn1		= "左上.cur"
+dgn2		= "右上.cur"
+move		= "准星.cur"
+alternate	= "[florr] Alterante.cur"
+pin		= "位置"
+person		= "人.cur"
